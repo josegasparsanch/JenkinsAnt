@@ -15,7 +15,7 @@
     </target>
  
     <target name="empaqueta" depends="init" description="Empaqueta">
-        <jar jarfile="${name} v${version}.jar" basedir="bin" index="no" compress="yes">
+        <jar jarfile="${name}v${version}.jar" basedir="bin" index="no" compress="yes">
             <manifest>
                 <attribute name="Built-By" value="${user.name}" />
                 <attribute name="Specification-Title" value="${name}" />
